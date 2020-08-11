@@ -22,3 +22,52 @@ $base-margin: 20px;
   width: 150px;
   height: 150px;
 }
+.header {
+  background-color: $support-blue;
+  margin-bottom: $base-margin;
+  height: 80px;
+}
+.storeTitle {
+  float: left;
+  padding-left: $base-margin;
+  padding-top: $base-margin;
+  color: $white;
+}
+.cartCount {
+  float: right;
+  margin-top: $base-margin;
+  margin-right: $base-margin;
+  padding-right: $base-padding;
+  padding-top: $base-padding;
+  color:$white;
+}
+.categroyManager {
+  width: 100%;
+}
+.categroyName {
+  margin-left: $base-margin;
+}
+.productUnit {
+  width: 160px;
+  margin: $base-margin;
+  display: inline-block;
+}
+.productName {
+  font-size: $base-font-size;
+  margin-bottom: $base-margin;
+}
+.phonePrice {
+  float: left;
+}
+.priceAndBtn {
+  width: 150px;
+}
+.cartBtn {
+  float: right;
+  background-color: $support-blue;
+  color:$white;
+}
+.cartBtn[disabled] {
+  background-color: $second-blue;
+  color:$white;
+}
